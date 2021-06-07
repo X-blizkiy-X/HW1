@@ -1,0 +1,150 @@
+html {
+  font-family: Georgia, "Bitstream Charter", serif;
+}
+.wrapper {
+  background-color: #fff;
+  margin: 20px auto 0 auto;
+  padding: 0 20px;
+  max-width: 940px;
+  background: #fff;
+}
+
+.logo {
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 20px 0 20px 0;
+}
+
+nav {
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav a {
+  padding: 10px;
+  color: #06c;
+}
+
+nav + hr {
+  margin: 5px 0 20px 0;
+}
+
+.one {
+  color: #0000ff;
+}
+
+.one1 {
+  margin: 20px 0 20px 0;
+}
+
+article + hr {
+  margin: 20px 0;
+}
+
+.two {
+  color: #0000ff;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 40px;
+}
+
+table,
+table * {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  white-space: nowrap;
+  word-wrap: normal;
+  color: #777;
+}
+th,
+td {
+  padding: 5px 195px 5px 15px;
+}
+table + hr {
+  margin: 20px 0;
+}
+
+.four,
+.four1 {
+  margin: 20px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+ol ol {
+  list-style-type: upper-alpha;
+}
+
+dt {
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+dd {
+  margin: 0;
+}
+
+dl + hr {
+  margin: 20px 0;
+}
+
+pre {
+  background: #f7f7f7;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  line-height: 21px;
+}
+.six {
+  color: #0000ff;
+}
+.six1 {
+  font-style: italic;
+}
+
+blockquote + hr {
+  margin: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  height: 25px;
+  width: 200px;
+}
+fieldset textarea{
+  height: 125px;
+  width: 200px;
+}
+
+input[type="submit"] {
+  height: 25px;
+  width: 200px;
+}
+
+fieldset {
+  border-style: none;
+  text-align: right;
+}
