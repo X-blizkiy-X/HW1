@@ -6,11 +6,6 @@
   max-width: 940px;
   background: #fff;
 }
-
-div {
-  display: flex;
-}
-
 .logo {
   margin: 0 auto;
   padding: 40px 0 0 0;
