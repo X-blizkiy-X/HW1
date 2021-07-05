@@ -1,12 +1,14 @@
-html {
-  font-family: Georgia, "Bitstream Charter", serif;
-}
 .wrapper {
   background-color: #fff;
+  font-family: Georgia, "Bitstream Charter", serif;
   margin: 20px auto 0 auto;
   padding: 0 20px;
   max-width: 940px;
   background: #fff;
+}
+
+div {
+  display: flex;
 }
 
 .logo {
@@ -128,13 +130,13 @@ blockquote + hr {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-textarea{
+textarea {
   background: #f9f9f9;
   border: 1px solid #ccc;
   height: 25px;
   width: 200px;
 }
-fieldset textarea{
+fieldset textarea {
   height: 125px;
   width: 200px;
 }
@@ -142,9 +144,11 @@ fieldset textarea{
 input[type="submit"] {
   height: 25px;
   width: 200px;
+  cursor: pointer;
 }
 
 fieldset {
   border-style: none;
   text-align: right;
+  padding: 0;
 }
